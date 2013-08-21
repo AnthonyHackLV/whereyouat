@@ -7,5 +7,26 @@
 
 <body>
 
+<form action="/login-page" method="post">
+
+<div>
+	<label for="email">Email:</label>
+	<input type="text" id="email" />
+</div>
+<div>
+	<label for="password">Password:</label>
+	<input type="text" id="password" />
+</div>
+<div class="button">
+	<button type="submit">Log In</button>
+</div>
+
+<div>
+	<a href="signup.php">Click here to sign up</a>
+</div>
+
+</form>
+
+
 </body>
 </html>
